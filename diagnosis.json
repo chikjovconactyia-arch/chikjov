@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-02-17T22:37:21.324Z",
+  "url": "https://tkpyrvvwrwslragvazgr.supabase.co",
+  "slides": {
+    "success": true,
+    "count": 2,
+    "error": null,
+    "first_item": {
+      "id": "e6f3f9dc-97d7-4ccb-a26b-314cb13bf638",
+      "title": "Programas de Indicação",
+      "headline": "Ganhe para usar!",
+      "description": "Indique amigos e ganhe dinheiro no ChikJov! Participe de um ou mais programas e ganhe recompensas incríveis.",
+      "button_text": "Cadastrar-se",
+      "button_link": "#",
+      "second_button_text": null,
+      "second_button_link": null,
+      "image_url": "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1920&q=80",
+      "is_active": true,
+      "sort_order": 0,
+      "created_at": "2026-02-17T21:31:26.579664+00:00"
+    }
+  },
+  "settings": {
+    "success": true,
+    "count": 1,
+    "error": null
+  }
+}

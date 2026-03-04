@@ -1,0 +1,12 @@
+--- DIAGNOSTICO COMPLETO ---
+
+1. CONFIGS (2):
+   [ID: 1ec3a9fe-c6f7-4c99-b4c8-292ee462390c] Created: 2026-02-18T00:29:29.930031+00:00
+   [ID: f9c4ea5b-90ff-46bd-9596-4e3faaae8ee1] Created: 2026-02-18T00:30:42.452227+00:00
+
+2. FEATURES (5):
+   [ID: 79a23d65-eff1-4f02-8bd2-8d11d3a7d6ae] -> Config: 1ec3a9fe-c6f7-4c99-b4c8-292ee462390c | Title: 🚀 4️⃣ Multiplique seus ganhos
+   [ID: 87685ab0-240c-439d-9ff6-bdb1d32fb751] -> Config: f9c4ea5b-90ff-46bd-9596-4e3faaae8ee1 | Title: 1️⃣ Compartilhe seu link
+   [ID: fd53c620-525e-4e1a-99b4-68d1d4aa3f0d] -> Config: f9c4ea5b-90ff-46bd-9596-4e3faaae8ee1 | Title: 2️⃣ Indicação confirmada
+   [ID: 6750ba58-0999-43b2-b046-f4b6ba74e068] -> Config: f9c4ea5b-90ff-46bd-9596-4e3faaae8ee1 | Title: 3️⃣ Ganhe por cada assinaturao
+   [ID: 3f8ed0dc-ca4e-41c9-8eec-e291bf3b7905] -> Config: f9c4ea5b-90ff-46bd-9596-4e3faaae8ee1 | Title: 4️⃣ Multiplique seus ganhos

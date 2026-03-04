@@ -1,0 +1,110 @@
+.how-it-works {
+    padding: 120px 0;
+    background-color: #ffffff;
+    transition: background-color 0.8s ease;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .steps-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.step-card {
+    position: relative;
+    padding: 3rem 2rem;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 2rem;
+    text-align: center;
+    transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+.step-card:hover {
+    transform: translateY(-12px) !important;
+    box-shadow: 0 20px 40px rgba(131, 21, 217, 0.08);
+    border-color: rgba(131, 21, 217, 0.15);
+}
+
+.step-card-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.step-icon-outer {
+    transition: all 0.5s ease;
+}
+
+.step-number-badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 28px;
+    height: 28px;
+    background: #ff9800;
+    /* Secondary Orange */
+    color: white;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.3);
+    z-index: 20;
+}
+
+@keyframes bounce-subtle {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+.animate-bounce-subtle {
+    animation: bounce-subtle 3s ease-in-out infinite;
+}
+
+/* Scroll Entrance logic from JS */
+.how-it-works .step-card {
+    will-change: transform, opacity;
+}
+
+.how-it-works.is-visible .step-card {
+    /* Transitions defined inline in JSX style attribute */
+}
+
+/* Glassmorphism for subtitle badge */
+.how-it-works .bg-purple-100 {
+    background-color: rgba(131, 21, 217, 0.08);
+    backdrop-filter: blur(4px);
+}
+
+.step-title {
+    background: linear-gradient(135deg, #2d1b69 0%, #4c1d95 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -0.02em;
+}
+
+.step-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #6b7280;
+}
