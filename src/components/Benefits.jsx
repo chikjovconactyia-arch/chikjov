@@ -42,7 +42,14 @@ const Benefits = () => {
                             Um investimento que se paga sozinho. Economize mais do que a mensalidade já no primeiro uso.
                         </p>
                         <div className="benefits-cta">
-                            <button className="btn-primary">Quero assinar agora</button>
+                            <a
+                                href="https://www.boon.clubecerto.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn-primary"
+                            >
+                                Quero assinar agora
+                            </a>
                         </div>
 
                         <div className="quote-box">

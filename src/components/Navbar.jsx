@@ -56,7 +56,7 @@ const Navbar = () => {
                             </a>
                         ))}
                         <a
-                            href="https://boon.chikjov.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
+                            href="https://www.boon.clubecerto.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-enter-desktop text-decoration-none"
@@ -111,7 +111,7 @@ const Navbar = () => {
                     {/* Sidebar Footer */}
                     <div className="p-6 border-t border-gray-100">
                         <a
-                            href="https://boon.chikjov.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
+                            href="https://www.boon.clubecerto.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-2xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-purple-200 text-decoration-none"
