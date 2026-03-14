@@ -23,21 +23,21 @@ const Plans = () => {
             price: "79,90",
             features: ["Presença na plataforma", "Geolocalização", "Link de indicação"],
             highlight: false,
-            link: "https://www.boon.clubecerto.com.br/checkout/dd5a8111-a927-4b6c-83c5-4f35dea96489"
+            link: "https://boon.chikjov.com.br/checkout/dd5a8111-a927-4b6c-83c5-4f35dea96489"
         },
         {
             name: "Destaque",
             price: "99,90",
             features: ["Tudo do Essencial", "Destaque nas buscas", "Tráfego pago moderado"],
             highlight: true,
-            link: "https://www.boon.clubecerto.com.br/checkout/8770cf85-7032-4187-8b4f-033d03102066"
+            link: "https://boon.chikjov.com.br/checkout/8770cf85-7032-4187-8b4f-033d03102066"
         },
         {
             name: "Premium",
             price: "149,90",
             features: ["Tudo do Destaque", "Prioridade no tráfego", "Suporte comercial dedicado", "Maior visibilidade"],
             highlight: false,
-            link: "https://www.boon.clubecerto.com.br/checkout/a01f0471-f4be-481f-ba67-bce39d57acc7"
+            link: "https://boon.chikjov.com.br/checkout/a01f0471-f4be-481f-ba67-bce39d57acc7"
         }
     ];
 

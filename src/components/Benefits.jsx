@@ -43,7 +43,7 @@ const Benefits = () => {
                         </p>
                         <div className="benefits-cta">
                             <a
-                                href="https://www.boon.clubecerto.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
+                                href="https://boon.chikjov.com.br/checkout/ed38d6fe-1735-4e82-b3eb-437ffd99c913"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary"
